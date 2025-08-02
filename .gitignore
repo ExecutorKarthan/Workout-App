@@ -1,0 +1,56 @@
+# --- Global ---
+.env
+.env.*
+*.log
+*.DS_Store
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+
+# --- Node (frontend) ---
+node_modules/
+dist/
+build/
+.cache/
+*.local
+
+# Vite-specific
+frontend/.vite
+frontend/coverage/
+frontend/public/assets/
+
+# --- Python / Django (backend) ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# --- System / Editor ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Optional ---
+*.bak
+*.orig
+*.tmp
+*.old
